@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: gray;
+    position: absolute;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+button {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 40px;
+    color: white;
+    background: red;
+    align-items: center;
+    margin-left: 42%;
+    text-align: center;
+    margin-top: 2%;
+}
+#save_hero {
+    background: yellow;
+    font-size: 30px;
+    margin-top: 1%;
+    color: black;
+    padding: 10px 70px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 20px;
+}
